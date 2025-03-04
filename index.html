@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo MFS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-800">
+    
+    <section class="max-w-md min-h-screen mx-auto bg-gray-200 py-6 px-3">
+        <header>
+            <nav class="flex justify-center items-center mt-6">
+                <div class="mt-10 relative flex justify-center items-center w-9/12 mb-10">
+                    <img src="./assets/Rectangle1.png" alt="Rectangle1" class="w-48 absolute">
+                    <img src="./assets/Group.svg" alt="Group" class="w-16">
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="hero bg-base-200 py-6 rounded-xl">
+                  <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body">
+                      <fieldset class="fieldset">
+                        <label class="fieldset-label text-xl text-black">Mobile Number :</label>
+                        <input id="login-number" value="01185489196" type="number" class="input outline-none" placeholder="Enter Your Number" required/>
+                        <label class="fieldset-label text-xl text-black">Pin</label>
+                        <input id="login-pin" value="1234" type="password" class="input" placeholder="Enter Your Pin :" required/>
+                        
+                        <button id="login-btn" class="btn btn-neutral mt-4 bg-[#0874F2] border-none">Login</button>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </main>
+    </section>
+
+
+    <script src="./js/login.js"></script>
+</body>
+</html>
