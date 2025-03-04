@@ -20,3 +20,8 @@ function setInnerTextByIDandValue(id,value){
 function toggleButton(id,stats){
     document.getElementById(id).style.display=stats;
 }
+
+
+document.getElementById("logout-btn").addEventListener("click", function () {
+    window.location.href = "../index.html";
+});
